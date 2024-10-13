@@ -1,0 +1,91 @@
+.circle{
+    content: "";
+    width: 375px;
+    height: 375px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,20,247,1) 42%, rgba(235,0,255,1) 59%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.img-phone{
+    max-width: 60%;
+}
+
+.circle::before{
+    content: "x";
+    color: blue;
+    font-size: 28px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(-10deg);
+}
+
+.circle::after{
+    content: "*";
+    color: blueviolet;
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(15deg);
+}
+
+.testimonial-container{
+ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,20,247,1) 42%, rgba(235,0,255,1) 59%);
+
+}
+
+.circle-2{
+    content: "";
+    width: 230px;
+    height: 230px;
+    background-color: black;
+    border-radius: 50%;
+    positive: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,20,247,1) 42%, rgba(235,0,255,1) 59%);
+}
+
+.img-phone-2{
+    max-width: 95%;
+    margin-left: 60px;
+}
+.building-container{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.building-bg{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/assest/software-developer-6521720_1280.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    
+}
+
+.dowload-container{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,20,247,1) 42%, rgba(235,0,255,1) 59%);
+}
+
+.modal-header{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(69,20,247,1) 42%, rgba(235,0,255,1) 59%);
+}
